@@ -14,6 +14,7 @@ struct Node *createNode(char data)
     newNode->next = NULL;
     return newNode;
 }
+
 int main()
 
 {
