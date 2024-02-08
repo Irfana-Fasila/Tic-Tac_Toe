@@ -15,6 +15,7 @@ struct Node *createNode(char data)
     return newNode;
 }
 int main()
+
 {
     int player = 1, input, status = -1;
     struct Node *head = NULL;
@@ -55,7 +56,6 @@ int main()
                 break;
             }
             t = t->next;
-            
         }
         printBoard(head);
         int result = checkWin(head);
